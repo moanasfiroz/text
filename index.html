@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalash Infotech</title>
+    <link rel="stylesheet" href="custom.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    
+    <center><table width="50%" height="230px">
+        <tr id="session">
+            <th>Sr No</th>
+            <th>Item Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Row Total</th>
+            
+        </tr>
+        
+        <tbody id="main">
+        <tr>
+            <td>1</td>
+            <td>Item 1</td>
+            <td><input type="number"id="part" onchange="calculateTotal(this)"></td>
+            <td>1</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Item 2</td>
+            <td><input type="number" id="part1" onchange="calculateTotal(this)"></td>
+            <td>1</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Item 3</td>
+            <td><input type="number" id="part2" onchange="calculateTotal(this)"></td>
+            <td>1</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>Item 4</td>
+            <td><input type="number" id="part3" onchange="calculateTotal(this)"></td>
+            <td>1</td>
+            <td>--</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>Item 5</td>
+            <td><input type="number" id="part4" onchange="calculateTotal(this)"></td>
+            <td>1</td>
+            <td>--</td>
+        </tr>
+        <tbody>
+        <tfoot>
+        <tr>
+<td></td>
+<td></td>
+<td></td>
+<td>Total Price</td>
+<td id="Total">0.00</td>
+</tr>
+</tfoot>
+    </table></center>
+
+
+    
+</body>
+</html>
